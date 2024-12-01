@@ -1,6 +1,6 @@
 import { useRef, useState } from 'react'
 
-function MovieRoom() {
+function Roof() {
 
     const [modalImageSrc, setModalImageSrc] = useState('');
     const modalRef = useRef(null);
@@ -42,13 +42,11 @@ function MovieRoom() {
                 <div className="content">
                     <article>
                         <div className="text">
-                            <h1>Entertainment pur</h1>
-                            <p>Der richtige Raum für noch mehr Unterhaltung und Spielspaß. Für filmfüllende Streaming-Abende und 
-                                ergeizige Battles an der Playstation. Aber auch das zweite Schlafzimmer für deine nächtliche Ruhe. 
-                                Mit großer Sofalandschaft zum Faulenzen, die-Beine-lang-machen, ausgiebig ausbreiten und Popcorn 
-                                verzehren. Krümeln ist übrigens erlaubt. Egal ob morgens nach dem Aufwachen, vor dem ersten Kaffee, 
-                                sich einfach die nächste Folge der Lieblingsserie gönnen oder von der nächtlichen Zockerrunde 
-                                siegreich in die Kissen sinken. Entscheide, was dir gefällt.
+                            <h1>Mit den Möwen auf Augenhöhe</h1>
+                            <p>Luft, Licht und nur noch der Himmel über dir - noch mehr Platz, um deinen Urlaubsfreiraum perfekt 
+                                zu nutzen. Für Yoga-Stunden, Freiluftfrühstück, Sonnenbaden, Open Air Kino oder einfach nur um zu 
+                                chillaxen - mach was dir gefällt. Mit schönstem Blick über Wismars Dächer und Natur. Und das ganz
+                                exklusiv nur für dich und deine Liebsten, ohne neugierige Nachbarn.
                             </p>
                         </div>
                         <div className='text-image-container'>
@@ -56,24 +54,22 @@ function MovieRoom() {
                                 <img src="" alt=""/>
                             </div>
                             <div className="text-to-image">
-                                <p>Die 2,50 m breite Sofalandschaft bietet ausreichend Platz für ein großes Publikum, nebeneinander beim 
-                                    Filmabend oder für große Langschläfer in Schlafposition. Für Hummeln im Hintern, kribbelige Beine 
-                                    oder den Bewegungsdrang zwischendurch steht dir die kleine Sportecke im hinteren Bereich des Raumes zur 
-                                    Verfügung. Fitnessmatte, Faszienrolle und Hanteln sind die idealen Begleiter für morgendliche 
-                                    Yoga-Stunden oder dein Tagesworkout, das du vielleicht auch im Urlaub nicht missen möchtest.
+                                <p>Genieße die Abgeschiedenheit und lasse den Blick in die Ferne schweifen. Mache es dir in 
+                                    luftiger Höhe gemütlich mit Picknickdecke, Kissen und Sonnenschutz. Abschalten vom 
+                                    Alltagstrubel, einfach mal die Zeit vergessen, dich von niemandem stören lassen. Genieße 
+                                    das Buch, das du nicht geschafft hast zu lesen oder die Musik, die im Alltagstroubel untergeht.
+                                    Lasse den Tag bei Leckereien und Sonnenuntergang romantisch ausklingen.
                                 </p>
                             </div>
                         </div>
                         <div className='text-image-container'>
                             <div className='image-wrapper right'>
-                                <img src="" alt="" />
+                                <img src="" alt=""/>
                             </div>
                             <div className="text-to-image">
-                                <p>Die Fotografien an den Wänden zeigen Wismar von ihrer schönsten Seite und lassen sich allesamt 
-                                    bei einem Stadtrundgang bewundern. Im wohnungzugehörigen Willkommensbuch kannst du sie auf der 
-                                    Karte ausmachen und aufsuchen. <br></br>Wenn sich irgendwann auch der tollste Urlaubstag dem Ende
-                                    zuneigt, bringst du mit der LED-Wand wieder Licht ins Dunkel, um den Entertainment-Abend in
-                                    gemütlicher Atmosphäre ausklingen zu lassen. 
+                                <p>Ist dir alles zu langweilig? Dann bring das Entertainment-Erlebnis mit aufs Dach. Beamer und 
+                                    Leinwand sorgen für das perfekte Kino-Event in lauen Sommernächten. Fotos von deinen 
+                                    Urlaubsaktivitäten lassen sich auf der Leinwand noch viel besser bestaunen. 
                                 </p>
                             </div>
                         </div>
@@ -84,4 +80,4 @@ function MovieRoom() {
     )
 }
 
-export default MovieRoom;
+export default Roof;

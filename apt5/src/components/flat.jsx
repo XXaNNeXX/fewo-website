@@ -72,12 +72,16 @@ function Flat() {
                             </div>
                             <div className="image-grid-row">
                                 <div className="image-grid-column">
-                                    <img src="/assets/flat-img/utility-room.jpg" alt="sleeping room"/>
-                                    <div className="image-text">Hauswirtschaftsraum</div>
+                                    <Link to={'/housekeeping-room'}>
+                                        <img src="/assets/flat-img/utility-room.jpg" alt="sleeping room"/>
+                                        <div className="image-text">Hauswirtschaftsraum</div>
+                                    </Link>
                                 </div>
                                 <div className="image-grid-column">
-                                    <img src="/assets/flat-img/roof.jpg" alt=""/>
-                                    <div className="image-text">Dach</div>
+                                    <Link to={'/roof'}>
+                                        <img src="/assets/flat-img/roof.jpg" alt=""/>
+                                        <div className="image-text">Dach</div>
+                                    </Link>
                                 </div>
                             </div>
                         </div>

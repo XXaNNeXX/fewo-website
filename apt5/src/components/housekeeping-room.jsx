@@ -1,6 +1,6 @@
 import { useRef, useState } from 'react'
 
-function MovieRoom() {
+function HousekeepingRoom() {
 
     const [modalImageSrc, setModalImageSrc] = useState('');
     const modalRef = useRef(null);
@@ -42,13 +42,11 @@ function MovieRoom() {
                 <div className="content">
                     <article>
                         <div className="text">
-                            <h1>Entertainment pur</h1>
-                            <p>Der richtige Raum für noch mehr Unterhaltung und Spielspaß. Für filmfüllende Streaming-Abende und 
-                                ergeizige Battles an der Playstation. Aber auch das zweite Schlafzimmer für deine nächtliche Ruhe. 
-                                Mit großer Sofalandschaft zum Faulenzen, die-Beine-lang-machen, ausgiebig ausbreiten und Popcorn 
-                                verzehren. Krümeln ist übrigens erlaubt. Egal ob morgens nach dem Aufwachen, vor dem ersten Kaffee, 
-                                sich einfach die nächste Folge der Lieblingsserie gönnen oder von der nächtlichen Zockerrunde 
-                                siegreich in die Kissen sinken. Entscheide, was dir gefällt.
+                            <h1>Rundum versorgt</h1>
+                            <p>Auch im Urlaub möchte man nichts missen und alles zur Hand haben, was man eben gerade
+                                so benötigt. Im Hauswirtschaftsraum findest du all die Helferlein, mit denen sich im
+                                Handumdrehen kleine Herausforderungen meistern lassen. Ob Wollmäusen den Kampf ansagen,
+                                LED-Kerzen wieder zum Leuchten bringen oder die Lieblingssommersachen von Falten befreien.
                             </p>
                         </div>
                         <div className='text-image-container'>
@@ -56,24 +54,31 @@ function MovieRoom() {
                                 <img src="" alt=""/>
                             </div>
                             <div className="text-to-image">
-                                <p>Die 2,50 m breite Sofalandschaft bietet ausreichend Platz für ein großes Publikum, nebeneinander beim 
-                                    Filmabend oder für große Langschläfer in Schlafposition. Für Hummeln im Hintern, kribbelige Beine 
-                                    oder den Bewegungsdrang zwischendurch steht dir die kleine Sportecke im hinteren Bereich des Raumes zur 
-                                    Verfügung. Fitnessmatte, Faszienrolle und Hanteln sind die idealen Begleiter für morgendliche 
-                                    Yoga-Stunden oder dein Tagesworkout, das du vielleicht auch im Urlaub nicht missen möchtest.
+                                <p>Neben den Klassikern Bügeleisen, Bügelbrett und Staubsauger wirst du hier noch einige 
+                                    weitere handliche Utensilien vorfinden, die dir deinen Urlaubsalltag retten können: 
+                                    <ul>
+                                        <li>Bio-Color- und Vollwaschmittel sowie Weichspüler</li>
+                                        <li>Wäscheklammern und Wäscheständer</li>
+                                        <li>Wäschenetze und -korb</li>
+                                        <li>Handfeger und -schaufel</li>
+                                        <li>Hocker (damit die Kleinsten auch ans Waschbecken gelangen)</li>
+                                        <li>Batterien</li>
+                                        <li>Glühbirnen</li>
+                                        <li>Bedienungsanleitungen</li>
+                                        <li>Schraubgläser (falls du Mitbringsel oder Übriggebliebenes mit nach Hause nehmen
+                                            möchtest)
+                                        </li>
+                                        <li>Sonnenbrillen, Regenschirm, Handyhalter fürs Fahrrad</li>
+                                    </ul> 
                                 </p>
                             </div>
                         </div>
                         <div className='text-image-container'>
                             <div className='image-wrapper right'>
-                                <img src="" alt="" />
+                                <img src="" alt=""/>
                             </div>
                             <div className="text-to-image">
-                                <p>Die Fotografien an den Wänden zeigen Wismar von ihrer schönsten Seite und lassen sich allesamt 
-                                    bei einem Stadtrundgang bewundern. Im wohnungzugehörigen Willkommensbuch kannst du sie auf der 
-                                    Karte ausmachen und aufsuchen. <br></br>Wenn sich irgendwann auch der tollste Urlaubstag dem Ende
-                                    zuneigt, bringst du mit der LED-Wand wieder Licht ins Dunkel, um den Entertainment-Abend in
-                                    gemütlicher Atmosphäre ausklingen zu lassen. 
+                                <p>
                                 </p>
                             </div>
                         </div>
@@ -84,4 +89,4 @@ function MovieRoom() {
     )
 }
 
-export default MovieRoom;
+export default HousekeepingRoom;

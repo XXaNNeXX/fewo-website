@@ -54,10 +54,23 @@ function Bathroom() {
                                 <img src="" alt=""/>
                             </div>
                             <div className="text-to-image">
-                                <p>Dank des Doppelwaschbeckens kommt man sich morgens garantiert nicht in die Quere. Das extra Gäste-WC 
-                                    bietet auch mehreren Personen genug Raum für die Morgentoilette. Mit den Naturkosmetika kannst du 
-                                    den letzten Rest Strandsand abwaschen. Brauchst du es an kälteren Tagen kuschelig warm, sorgt die 
-                                    Fußbodenheizung für die richtige Temperatur.
+                                <p>Dank des Doppelwaschbeckens kommt man sich morgens absolut nicht in die Quere. Der breite Spiegel 
+                                    bietet mit großflächiger LED-Beleuchtung das passende Licht für die morgendliche oder abendliche
+                                    Stimmung.<br></br>Für das perfekte Duscherlebnis stehen dir Naturkosmetika zur Verfügung, mit denen 
+                                    sich auch das letzte bisschen Strandsand abwaschen lässt. Und brauchst du es an kälteren Tagen
+                                    kuschelig warm, sorgt die Fußbodenheizung für die richtige Temperatur.
+                                </p>
+                            </div>
+                        </div>
+                        <div className='text-image-container'>
+                            <div className='image-wrapper right'>
+                                <img src="" alt=""/>
+                            </div>
+                            <div className="text-to-image">
+                                <p>Das extra Gäste-WC bietet auch mehreren Personen genug Raum für die Morgentoilette. Mit den 
+                                    Originalaufnahmen einiger Details des Wismarer Hafens kannst du dich für deinen nächsten
+                                    Ausflug in Stimmung bringen. Die fotografierten Objekte kannst du im Willkommensbuch auf 
+                                    der Karte nachschlagen, wenn du sie bei einer kleinen Hafentour wiederentdecken möchtest.
                                 </p>
                             </div>
                         </div>

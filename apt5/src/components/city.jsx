@@ -5,7 +5,7 @@ function City() {
     return (
         <div>
             <main>
-            <section>
+                <section>
                     <div className="banner">
                             <img className='header-image' src="/assets/city-img/church.jpg" alt="" />
                     </div>
@@ -14,7 +14,14 @@ function City() {
                     <article>
                         <div className="text">
                             <h1>Mittelalterliches Flair im 21. Jhd.</h1>
-                            <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
+                            <p>Wismars Ursprünge reichen bis ins 13. Jhd. zurück. Architektonisch lässt sich die Historie auch 
+                                heute noch an allen Ecken und Enden der Stadt bewundern. Nicht umsonst gehört Wismar mit einem 
+                                der am besten erhaltenen Altstadtkerne zum UNESCO Weltkulturerbe.
+                            </p>
+                            <p>Wenn du bereits einen kleinen Vorgeschmack auf die Stadt bekommen möchtest, findest du hier 
+                                bereits eine Auswahl an Sehenswürdigkeiten und Aktivitäten. Noch viel mehr über Wismar zu 
+                                erfahren gibt es in den Weiten des Internets und der Stadtinformation.
+                            </p>
                         </div>
                         <div className="image-grid">
                             <div className="image-grid-row">
@@ -25,14 +32,26 @@ function City() {
                                     </Link>
                                 </div>
                                 <div className="image-grid-column">
-                                    <img src="/assets/city-img/wasserkunst.jpg" alt=""/>
-                                    <div className="image-text">Sehenswürdigkeiten</div>
+                                    <Link to={'/sights'}>
+                                        <img src="/assets/city-img/wasserkunst.jpg" alt=""/>
+                                        <div className="image-text">Sehenswürdigkeiten</div>
+                                    </Link>
                                 </div>
                             </div>
-                        </div>
-                        <div>
-                            <p>Touren</p>
-                            <p>Kinder</p>
+                            <div className="image-grid-row">
+                                <div className="image-grid-column">
+                                    <Link to={'/tours'}>
+                                        <img src="/assets/city-img/wasserkunst.jpg" alt=""/>
+                                        <div className="image-text">Touren</div>
+                                    </Link>
+                                </div>
+                                <div className="image-grid-column">
+                                    <Link to={'/kids'}>
+                                        <img src="/assets/city-img/wasserkunst.jpg" alt=""/>
+                                        <div className="image-text">Kinder</div>
+                                    </Link>
+                                </div>
+                            </div>
                         </div>
                     </article>
                 </div>

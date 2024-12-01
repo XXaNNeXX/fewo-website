@@ -11,15 +11,35 @@ function Navbar() {
                         </div>
                         <div className='menu'>
                             <div className='menu-items'>
-                            <div className="dropdown">
-                                <div><Link to={'/'}>Die Wohnung</Link></div>
+                                <div className="dropdown">
+                                    <Link to={'/'}>Die Wohnung</Link>
+                                        <div className="dropdown-content">
+                                            <Link to='/sleeping-room'>Schlafzimmer</Link>
+                                            <Link to='/living-room'>Wohnzimmer</Link>
+                                            <Link to='/dining-room'>Esszimmer</Link>
+                                            <Link to='/movie-room'>Kinozimmer</Link>
+                                            <Link to='/kitchen'>Küche</Link>
+                                            <Link to='/bathroom'>Badezimmer</Link>
+                                            <Link to='/housekeeping-room'>Hauswirtschaftsraum</Link>
+                                            <Link to='/roof'>Dach</Link>
+                                        </div>
+                                </div>
+                                <div className="dropdown">
+                                    <Link to={'/city'}>Die Stadt</Link>
+                                        <div className="dropdown-content">
+                                            <Link to='/churches'>Kirchen</Link>
+                                            <Link to='/sights'>Sehenswürdigkeiten</Link>
+                                            <Link to='/tours'>Touren</Link>
+                                            <Link to='/kids'>Kinder</Link>
+                                        </div>
+                                </div>
+                                <div className="dropdown">
+                                    <Link to={'/coast'}>Die Küste</Link>
                                     <div className="dropdown-content">
-                                        <Link to='/sleeping-room'>Schlafzimmer</Link>
-                                        <Link to='/living-room'>Wohnzimmer</Link>
+                                        <Link to='/harbour'>Hafen</Link>
+                                        <Link to='/beach'>Strände</Link>
                                     </div>
                                 </div>
-                                <div><Link to={'/town'}>Die Stadt</Link></div>
-                                <div><Link to={'/coast'}>Die Küste</Link></div>
                             </div>
                             <div>
                                 <button style={{ width: '110px', height: '30px' }}>
