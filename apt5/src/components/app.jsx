@@ -14,7 +14,11 @@ import Sights from './sights'
 import Tours from './tours'
 import Kids from './kids'
 import Coast from './coast'
+import Harbour from './harbour'
+import Beaches from './beaches'
 import Footer from './footer'
+import Imprint from './imprint'
+import FAQS from './faqs'
 import { BrowserRouter as Router, Route, Routes, useLocation } from "react-router-dom"
 import { useEffect } from 'react'
 
@@ -52,6 +56,10 @@ function App() {
                 <Route path="/tours" element={<Tours/>}/>
                 <Route path="/kids" element={<Kids/>}/>
                 <Route path="/coast" element={<Coast/>}/>
+                <Route path="/harbour" element={<Harbour/>}/>
+                <Route path="/beaches" element={<Beaches/>}/>
+                <Route path="/imprint" element={<Imprint/>}/>
+                <Route path="/faqs" element={<FAQS/>}/>
             </Routes>
             <Footer/>
         </>

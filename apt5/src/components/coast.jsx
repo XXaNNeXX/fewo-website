@@ -29,7 +29,7 @@ function Coast() {
                                     </Link>
                                 </div>
                                 <div className="image-grid-column">
-                                    <Link to={'/beach'}>
+                                    <Link to={'/beaches'}>
                                         <img src="/assets/coast-img/bridge.jpg" alt=""/>
                                         <div className="image-text">Strände</div>
                                     </Link>

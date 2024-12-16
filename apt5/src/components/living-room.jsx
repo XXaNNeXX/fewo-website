@@ -22,16 +22,34 @@ function LivingRoom() {
                 <section>
                     <div className="scroll-container">
                     <img className="scroll-image" 
-                            src="" alt="" height="350"
+                            src="\assets\flat-img\living-room-img\living-room_1.jpg" alt="" height="350"
                             onClick={handleImageClick}/>
                         <img className="scroll-image" 
-                            src="" alt="" height="350"
+                            src="\assets\flat-img\living-room-img\living-room_2.jpg" alt="" height="350"
                             onClick={handleImageClick}/>
                         <img className="scroll-image" 
-                            src="" alt="" height="350"
+                            src="\assets\flat-img\living-room-img\living-room_3.jpg" alt="" height="350"
                             onClick={handleImageClick}/>
                         <img className="scroll-image" 
-                            src="" alt="" height="350"
+                            src="\assets\flat-img\living-room-img\living-room_4.jpg" alt="" height="350"
+                            onClick={handleImageClick}/>
+                        <img className="scroll-image" 
+                            src="\assets\flat-img\living-room-img\living-room_5.jpg" alt="" height="350"
+                            onClick={handleImageClick}/>
+                        <img className="scroll-image" 
+                            src="\assets\flat-img\living-room-img\living-room_6.jpg" alt="" height="350"
+                            onClick={handleImageClick}/>
+                        <img className="scroll-image" 
+                            src="\assets\flat-img\living-room-img\living-room_8.jpg" alt="" height="350"
+                            onClick={handleImageClick}/>
+                        <img className="scroll-image" 
+                            src="\assets\flat-img\living-room-img\living-room_9.jpg" alt="" height="350"
+                            onClick={handleImageClick}/>
+                        <img className="scroll-image" 
+                            src="\assets\flat-img\living-room-img\living-room_10.jpg" alt="" height="350"
+                            onClick={handleImageClick}/>
+                        <img className="scroll-image" 
+                            src="\assets\flat-img\living-room-img\living-room-games.jpg" alt="" height="350"
                             onClick={handleImageClick}/>
                     </div>
                     <div ref={modalRef} id="myModal" className="modal">
@@ -52,7 +70,7 @@ function LivingRoom() {
                         </div>
                         <div className='text-image-container'>
                             <div className='image-wrapper left'>
-                                <img src="" alt=""/>
+                                <img src="\assets\flat-img\living-room-img\living-room-books.jpg" alt=""/>
                             </div>
                             <div className="text-to-image">
                                 <p>Die liebevoll zusammengestellte Bibliothek mit alten Schmökern macht nicht nur optisch was her, 
@@ -66,7 +84,7 @@ function LivingRoom() {
                         </div>
                         <div className='text-image-container'>
                             <div className='image-wrapper right'>
-                                <img src="" alt="" />
+                                <img src="\assets\flat-img\living-room-img\living-room-lego.jpg" alt="" />
                             </div>
                             <div className="text-to-image">
                                 <p>Für Spiel, Spaß und Beschäftigung sorgen gleich eine ganze Reihe an Gesellschaftsspielen für alle 

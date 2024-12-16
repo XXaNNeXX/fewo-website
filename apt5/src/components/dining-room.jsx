@@ -22,16 +22,25 @@ function DiningRoom() {
                 <section>
                     <div className="scroll-container">
                     <img className="scroll-image" 
-                            src="" alt="" height="350"
+                            src="\assets\flat-img\dining-room-img\dining-room_1.jpg" alt="" height="350"
                             onClick={handleImageClick}/>
                         <img className="scroll-image" 
-                            src="" alt="" height="350"
+                            src="\assets\flat-img\dining-room-img\dining-room_2.jpg" alt="" height="350"
                             onClick={handleImageClick}/>
                         <img className="scroll-image" 
-                            src="" alt="" height="350"
+                            src="\assets\flat-img\dining-room-img\dining-room_3.jpg" alt="" height="350"
                             onClick={handleImageClick}/>
                         <img className="scroll-image" 
-                            src="" alt="" height="350"
+                            src="\assets\flat-img\dining-room-img\dining-room_4.jpg" alt="" height="350"
+                            onClick={handleImageClick}/>
+                        <img className="scroll-image" 
+                            src="\assets\flat-img\dining-room-img\dining-room_5.jpg" alt="" height="350"
+                            onClick={handleImageClick}/>
+                        <img className="scroll-image" 
+                            src="\assets\flat-img\dining-room-img\dining-room_6.jpg" alt="" height="350"
+                            onClick={handleImageClick}/>
+                        <img className="scroll-image" 
+                            src="\assets\flat-img\dining-room-img\dining-room_7.jpg" alt="" height="350"
                             onClick={handleImageClick}/>
                     </div>
                     <div ref={modalRef} id="myModal" className="modal">
@@ -51,7 +60,7 @@ function DiningRoom() {
                         </div>
                         <div className='text-image-container'>
                             <div className='image-wrapper left'>
-                                <img src="" alt=""/>
+                                <img src="\assets\flat-img\dining-room-img\dining-room-desk.jpg" alt=""/>
                             </div>
                             <div className="text-to-image">
                                 <p>Am höhenverstellbaren Schreibtisch lassen sich rückenfreundlich deine (digitalen) Ideen verwirklichen. 

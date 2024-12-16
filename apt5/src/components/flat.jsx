@@ -26,18 +26,24 @@ function Flat() {
                             <p>Kleine Tour gefällig? Klicke dich durch die einzelnen Räume und erfahre, was die Wohnung
                                 einzigartig macht.
                             </p>
+                            <p>Um deine Fragen schon vorab beantwortet zu bekommen, schaue dich in den &nbsp;
+                                <button> 
+                                    <Link to={'faqs'} className='link-style'>&rarr; FAQs</Link>
+                                </button>
+                                &nbsp; um.
+                            </p>
                         </div>
                         <div className="image-grid">
                             <div className="image-grid-row">
                                 <div className="image-grid-column">
                                     <Link to={'/sleeping-room'}>
-                                        <img src="/assets/flat-img/sleeping-room.jpg" alt="sleeping room"/>
+                                        <img src="/assets/flat-img/sleeping-room-img/sleeping-room_1.jpg" alt="sleeping room"/>
                                         <div className="image-text">Schlafzimmer</div>
                                     </Link>
                                 </div>
                                 <div className="image-grid-column">
                                     <Link to={'/living-room'}>
-                                        <img src="/assets/flat-img/living-room.jpg" alt=""/>
+                                        <img src="/assets/flat-img/living-room-img/living-room_2.jpg" alt=""/>
                                         <div className="image-text">Wohnzimmer</div>
                                     </Link>
                                 </div>
@@ -45,7 +51,7 @@ function Flat() {
                             <div className="image-grid-row">
                                 <div className="image-grid-column">
                                     <Link to={'/dining-room'}>
-                                        <img src="/assets/flat-img/dining-room.jpg" alt="sleeping room"/>
+                                        <img src="/assets/flat-img/dining-room-img/dining-room_1.jpg" alt="sleeping room"/>
                                         <div className="image-text">Esszimmer</div>
                                     </Link>
                                 </div>
