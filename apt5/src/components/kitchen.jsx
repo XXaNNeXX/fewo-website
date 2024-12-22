@@ -22,16 +22,28 @@ function Kitchen() {
                 <section>
                     <div className="scroll-container">
                     <img className="scroll-image" 
-                            src="" alt="" height="350"
+                            src="\assets\flat-img\kitchen-img\kitchen_1.jpg" alt="" height="350"
                             onClick={handleImageClick}/>
                         <img className="scroll-image" 
-                            src="" alt="" height="350"
+                            src="\assets\flat-img\kitchen-img\kitchen_2.jpg" alt="" height="350"
                             onClick={handleImageClick}/>
                         <img className="scroll-image" 
-                            src="" alt="" height="350"
+                            src="\assets\flat-img\kitchen-img\kitchen_3.jpg" alt="" height="350"
                             onClick={handleImageClick}/>
                         <img className="scroll-image" 
-                            src="" alt="" height="350"
+                            src="\assets\flat-img\kitchen-img\kitchen_4.jpg" alt="" height="350"
+                            onClick={handleImageClick}/>
+                        <img className="scroll-image" 
+                            src="\assets\flat-img\kitchen-img\kitchen_5.jpg" alt="" height="350"
+                            onClick={handleImageClick}/>
+                        <img className="scroll-image" 
+                            src="\assets\flat-img\kitchen-img\kitchen_6.jpg" alt="" height="350"
+                            onClick={handleImageClick}/>
+                        <img className="scroll-image" 
+                            src="\assets\flat-img\kitchen-img\kitchen_7.jpg" alt="" height="350"
+                            onClick={handleImageClick}/>
+                        <img className="scroll-image" 
+                            src="\assets\flat-img\kitchen-img\kitchen_8.jpg" alt="" height="350"
                             onClick={handleImageClick}/>
                     </div>
                     <div ref={modalRef} id="myModal" className="modal">
@@ -52,7 +64,7 @@ function Kitchen() {
                         </div>
                         <div className='text-image-container'>
                             <div className='image-wrapper left'>
-                                <img src="" alt=""/>
+                                <img src="\assets\flat-img\kitchen-img\kitchen-winecooler.jpg" alt=""/>
                             </div>
                             <div className="text-to-image">
                                 <p>Angefangen bei French Press und Milchaufschäumer für den Kaffeegenuss, über handliche Tools wie
@@ -67,12 +79,12 @@ function Kitchen() {
                         </div>
                         <div className='text-image-container'>
                             <div className='image-wrapper right'>
-                                <img src="" alt="" />
+                                <img src="\assets\flat-img\kitchen-img\kitchen-coffee.jpg" alt="" />
                             </div>
                             <div className="text-to-image">
                                 <p>Damit du für deine Koch- und Backabenteuer bestens gewappnet bist, stehen dir nicht nur Salz und 
-                                    Pfeffer, sondern auch eine Reihe an weiteren Bio-Gewürzen sowie Bio-Bratöl zur Verfügung. Für 
-                                    das morgendliche Heißgetränk kannst du zwischen Bio-Tee und Bio-Kaffee frei wählen.
+                                    Pfeffer, sondern auch eine Reihe an weiteren Bio-Gewürzen sowie Bio-Bratöl zur Verfügung.
+                                    <br></br>Für das morgendliche Heißgetränk kannst du zwischen Bio-Tee und Bio-Kaffee frei wählen.
                                 </p>
                             </div>
                         </div>

@@ -22,16 +22,25 @@ function MovieRoom() {
                 <section>
                     <div className="scroll-container">
                     <img className="scroll-image" 
-                            src="" alt="" height="350"
+                            src="\assets\flat-img\movie-room-img\movie-room_1.jpg" alt="" height="350"
                             onClick={handleImageClick}/>
                         <img className="scroll-image" 
-                            src="" alt="" height="350"
+                            src="\assets\flat-img\movie-room-img\movie-room_2.jpg" alt="" height="350"
                             onClick={handleImageClick}/>
                         <img className="scroll-image" 
-                            src="" alt="" height="350"
+                            src="\assets\flat-img\movie-room-img\movie-room_3.jpg" alt="" height="350"
                             onClick={handleImageClick}/>
                         <img className="scroll-image" 
-                            src="" alt="" height="350"
+                            src="\assets\flat-img\movie-room-img\movie-room_4.jpg" alt="" height="350"
+                            onClick={handleImageClick}/>
+                        <img className="scroll-image" 
+                            src="\assets\flat-img\movie-room-img\movie-room_5.jpg" alt="" height="350"
+                            onClick={handleImageClick}/>
+                        <img className="scroll-image" 
+                            src="\assets\flat-img\movie-room-img\movie-room_6.jpg" alt="" height="350"
+                            onClick={handleImageClick}/>
+                        <img className="scroll-image" 
+                            src="\assets\flat-img\movie-room-img\movie-room_7.jpg" alt="" height="350"
                             onClick={handleImageClick}/>
                     </div>
                     <div ref={modalRef} id="myModal" className="modal">
@@ -53,11 +62,11 @@ function MovieRoom() {
                         </div>
                         <div className='text-image-container'>
                             <div className='image-wrapper left'>
-                                <img src="" alt=""/>
+                                <img src="\assets\flat-img\movie-room-img\movie-room-training.jpg" alt=""/>
                             </div>
                             <div className="text-to-image">
                                 <p>Die 2,50 m breite Sofalandschaft bietet ausreichend Platz für ein großes Publikum, nebeneinander beim 
-                                    Filmabend oder für große Langschläfer in Schlafposition. Für Hummeln im Hintern, kribbelige Beine 
+                                    Filmabend oder für große Langschläfer in Schlafposition. <br></br>Für Hummeln im Hintern, kribbelige Beine 
                                     oder den Bewegungsdrang zwischendurch steht dir die kleine Sportecke im hinteren Bereich des Raumes zur 
                                     Verfügung. Fitnessmatte, Faszienrolle und Hanteln sind die idealen Begleiter für morgendliche 
                                     Yoga-Stunden oder dein Tagesworkout, das du vielleicht auch im Urlaub nicht missen möchtest.
@@ -66,7 +75,7 @@ function MovieRoom() {
                         </div>
                         <div className='text-image-container'>
                             <div className='image-wrapper right'>
-                                <img src="" alt="" />
+                                <img src="\assets\flat-img\movie-room-img\movie-room-light.jpg" alt="" />
                             </div>
                             <div className="text-to-image">
                                 <p>Die Fotografien an den Wänden zeigen Wismar von ihrer schönsten Seite und lassen sich allesamt 

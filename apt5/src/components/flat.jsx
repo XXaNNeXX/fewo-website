@@ -57,7 +57,7 @@ function Flat() {
                                 </div>
                                 <div className="image-grid-column">
                                     <Link to={'/movie-room'}>
-                                        <img src="/assets/flat-img/movie-room.jpg" alt=""/>
+                                        <img src="/assets/flat-img/movie-room-img/movie-room_3.jpg" alt=""/>
                                         <div className="image-text">Kinozimmer</div>
                                     </Link>
                                 </div>
@@ -65,13 +65,13 @@ function Flat() {
                             <div className="image-grid-row">
                                 <div className="image-grid-column">
                                     <Link to={'/kitchen'}>
-                                        <img src="/assets/flat-img/kitchen.jpg" alt="sleeping room"/>
+                                        <img src="/assets/flat-img/kitchen-img/kitchen_1.jpg" alt="sleeping room"/>
                                         <div className="image-text">Küche</div>
                                     </Link>
                                 </div>
                                 <div className="image-grid-column">
                                     <Link to={'/bathroom'}>
-                                        <img src="/assets/flat-img/bathroom.jpg" alt=""/>
+                                        <img src="/assets/flat-img/bath-room-img/bathroom_1.jpg" alt=""/>
                                         <div className="image-text">Badezimmer</div>
                                     </Link>
                                 </div>
@@ -79,13 +79,13 @@ function Flat() {
                             <div className="image-grid-row">
                                 <div className="image-grid-column">
                                     <Link to={'/housekeeping-room'}>
-                                        <img src="/assets/flat-img/utility-room.jpg" alt="sleeping room"/>
+                                        <img src="/assets/flat-img/housekeeping-room-img/housekeeping_1.jpg" alt="sleeping room"/>
                                         <div className="image-text">Hauswirtschaftsraum</div>
                                     </Link>
                                 </div>
                                 <div className="image-grid-column">
                                     <Link to={'/roof'}>
-                                        <img src="/assets/flat-img/roof.jpg" alt=""/>
+                                        <img src="/assets/flat-img/roof-img/roof.jpg" alt=""/>
                                         <div className="image-text">Dach</div>
                                     </Link>
                                 </div>

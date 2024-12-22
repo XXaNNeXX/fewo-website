@@ -22,16 +22,16 @@ function HousekeepingRoom() {
                 <section>
                     <div className="scroll-container">
                     <img className="scroll-image" 
-                            src="" alt="" height="350"
+                            src="/assets/flat-img/housekeeping-room-img/housekeeping_1.jpg" alt="" height="350"
                             onClick={handleImageClick}/>
                         <img className="scroll-image" 
-                            src="" alt="" height="350"
+                            src="/assets/flat-img/housekeeping-room-img/housekeeping_2.jpg" alt="" height="350"
                             onClick={handleImageClick}/>
                         <img className="scroll-image" 
-                            src="" alt="" height="350"
+                            src="/assets/flat-img/housekeeping-room-img/housekeeping_3.jpg" alt="" height="350"
                             onClick={handleImageClick}/>
                         <img className="scroll-image" 
-                            src="" alt="" height="350"
+                            src="/assets/flat-img/housekeeping-room-img/housekeeping_4.jpg" alt="" height="350"
                             onClick={handleImageClick}/>
                     </div>
                     <div ref={modalRef} id="myModal" className="modal">
@@ -51,7 +51,7 @@ function HousekeepingRoom() {
                         </div>
                         <div className='text-image-container'>
                             <div className='image-wrapper left'>
-                                <img src="" alt=""/>
+                                <img src="/assets/flat-img/housekeeping-room-img/housekeeping-equipment.jpg" alt=""/>
                             </div>
                             <div className="text-to-image">
                                 <p>Neben den Klassikern Bügeleisen, Bügelbrett und Staubsauger wirst du hier noch einige 
@@ -61,7 +61,7 @@ function HousekeepingRoom() {
                                         <li>Wäscheklammern und Wäscheständer</li>
                                         <li>Wäschenetze und -korb</li>
                                         <li>Handfeger und -schaufel</li>
-                                        <li>Hocker (damit die Kleinsten auch ans Waschbecken gelangen)</li>
+                                        <li>Hocker (damit bspw. die Kleinsten auch ans Waschbecken gelangen)</li>
                                         <li>Batterien</li>
                                         <li>Glühbirnen</li>
                                         <li>Bedienungsanleitungen</li>
@@ -73,15 +73,12 @@ function HousekeepingRoom() {
                                 </p>
                             </div>
                         </div>
-                        <div className='text-image-container'>
-                            <div className='image-wrapper right'>
-                                <img src="" alt=""/>
-                            </div>
-                            <div className="text-to-image">
-                                <p>
-                                </p>
-                            </div>
-                        </div>
+                        <div className='text'>
+                            <p>Du kannst alles nutzen und deinem Bedarf anpassen. Und natürlich hier auch alles 
+                                verstauen, was dir sonst in der Wohnung im Weg stehen würde. Die Leinwand für den 
+                                Beamer findest du deshalb auch im Hauswirtschaftsraum untergebracht.
+                            </p>
+                    </div>
                     </article>
                 </div>
             </main>

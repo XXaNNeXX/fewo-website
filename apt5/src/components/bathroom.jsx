@@ -22,16 +22,25 @@ function Bathroom() {
                 <section>
                     <div className="scroll-container">
                     <img className="scroll-image" 
-                            src="" alt="" height="350"
+                            src="\assets\flat-img\bath-room-img\bathroom_1.jpg" alt="" height="350"
                             onClick={handleImageClick}/>
                         <img className="scroll-image" 
-                            src="" alt="" height="350"
+                            src="\assets\flat-img\bath-room-img\bathroom_2.jpg" alt="" height="350"
                             onClick={handleImageClick}/>
                         <img className="scroll-image" 
-                            src="" alt="" height="350"
+                            src="\assets\flat-img\bath-room-img\bathroom_3.jpg" alt="" height="350"
                             onClick={handleImageClick}/>
                         <img className="scroll-image" 
-                            src="" alt="" height="350"
+                            src="\assets\flat-img\bath-room-img\bathroom_4.jpg" alt="" height="350"
+                            onClick={handleImageClick}/>
+                        <img className="scroll-image" 
+                            src="\assets\flat-img\bath-room-img\bathroom_5.jpg" alt="" height="350"
+                            onClick={handleImageClick}/>
+                        <img className="scroll-image" 
+                            src="\assets\flat-img\bath-room-img\bathroom_6.jpg" alt="" height="350"
+                            onClick={handleImageClick}/>
+                        <img className="scroll-image" 
+                            src="\assets\flat-img\bath-room-img\bathroom_7.jpg" alt="" height="350"
                             onClick={handleImageClick}/>
                     </div>
                     <div ref={modalRef} id="myModal" className="modal">
@@ -64,13 +73,13 @@ function Bathroom() {
                         </div>
                         <div className='text-image-container'>
                             <div className='image-wrapper right'>
-                                <img src="" alt=""/>
+                                <img src="\assets\flat-img\bath-room-img\bathroom-frame.jpg" alt=""/>
                             </div>
                             <div className="text-to-image">
                                 <p>Das extra Gäste-WC bietet auch mehreren Personen genug Raum für die Morgentoilette. Mit den 
                                     Originalaufnahmen einiger Details des Wismarer Hafens kannst du dich für deinen nächsten
-                                    Ausflug in Stimmung bringen. Die fotografierten Objekte kannst du im Willkommensbuch auf 
-                                    der Karte nachschlagen, wenn du sie bei einer kleinen Hafentour wiederentdecken möchtest.
+                                    Ausflug in Stimmung bringen. Die fotografierten Objekte kannst du übrigens im Willkommensbuch 
+                                    auf der Karte nachschlagen, wenn du sie bei einer kleinen Hafentour wiederentdecken möchtest.
                                 </p>
                             </div>
                         </div>

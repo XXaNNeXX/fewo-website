@@ -73,7 +73,7 @@ function DiningRoom() {
                         </div>
                         <div className='text-image-container'>
                             <div className='image-wrapper right'>
-                                <img src="" alt="" />
+                                <img src="\assets\flat-img\dining-room-img\dining-room-paint.jpg" alt="" />
                             </div>
                             <div className="text-to-image">
                                 <p>Für kleine Künstlerinnen und Künstler beherbergen die Kommodenschubladen passende Malutensilien. Hilft 
