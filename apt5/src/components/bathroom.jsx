@@ -60,7 +60,7 @@ function Bathroom() {
                         </div>
                         <div className='text-image-container'>
                             <div className='image-wrapper left'>
-                                <img src="" alt=""/>
+                                <img src="\assets\flat-img\bath-room-img\bathroom-thermo.jpg" alt=""/>
                             </div>
                             <div className="text-to-image">
                                 <p>Dank des Doppelwaschbeckens kommt man sich morgens absolut nicht in die Quere. Der breite Spiegel 

@@ -7,7 +7,7 @@ function City() {
             <main>
                 <section>
                     <div className="banner">
-                            <img className='header-image' src="/assets/city-img/church.jpg" alt="" />
+                            <img className='header-image' src="/assets/city-img/city_banner.jpg" alt="" />
                     </div>
                 </section>
                 <div className="content">
@@ -27,7 +27,7 @@ function City() {
                             <div className="image-grid-row">
                                 <div className="image-grid-column">
                                     <Link to={'/churches'}>
-                                        <img src="/assets/city-img/st-georg.jpg" alt="st georg church"/>
+                                        <img src="/assets/city-img/church.jpg" alt="st georg church"/>
                                         <div className="image-text">Kirchen</div>
                                     </Link>
                                 </div>
@@ -41,7 +41,7 @@ function City() {
                             <div className="image-grid-row">
                                 <div className="image-grid-column">
                                     <Link to={'/tours'}>
-                                        <img src="/assets/city-img/wasserkunst.jpg" alt=""/>
+                                        <img src="/assets/city-img/oldtimer.jpg" alt=""/>
                                         <div className="image-text">Touren</div>
                                     </Link>
                                 </div>

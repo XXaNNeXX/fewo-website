@@ -29,6 +29,10 @@ function Imprint() {
                 <p>Wir sind eine unabhängige dritte Partei, die nicht von Airbnb, Inc. oder seinen 
                     Tochtergesellschaften unterstützt wird oder mit ihnen verbunden ist.
                 </p>
+                <p>Alle auf dieser Website verwendeten Fotos wurden mit freundlicher Genehmigung der Urheber 
+                    erstellt. Eine weitere Nutzung der Bilder ist ohne ausdrückliche Zustimmung der Urheber 
+                    nicht gestattet.
+                </p>
             </article>
         </div>
     );

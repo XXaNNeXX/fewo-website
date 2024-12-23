@@ -6,7 +6,7 @@ function Beaches() {
             <main>
                 <section>
                     <div className="banner">
-                        <img className='header-image' src="/assets/coast-img/wohlendorfer-wiek.png" alt="" />
+                        <img className='header-image' src="/assets/coast-img/sandburg.jpg" alt="" />
                     </div>
                 </section>
                 <div className="content">
