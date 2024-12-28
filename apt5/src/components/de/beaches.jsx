@@ -12,7 +12,7 @@ function Beaches() {
                 <div className="content">
                     <article>
                         <div className="text">
-                            <h1>Poel Am Schwarzen Busch</h1>
+                            <h2>Poel Am Schwarzen Busch</h2>
                             <p>Nordöstlich von Wismar gelegen befindet sich die Halbinsel Poel. Diese lässt sich per 
                                 Fähre, Auto oder auch mit dem Fahrrad gut erreichen. Der Strand Am Schwarzen Busch liegt 
                                 im Norden der Halbinsel und gehört zu den Klassikern der Wismarer Strände.

@@ -33,16 +33,6 @@ function Sights() {
                             </p>
                         </div>
                         <div className="text">
-                            <h2>Alter Hafen</h2>
-                            <p>Der Alte Hafen von Wismar versprüht maritimen Charme und erinnert an die lange Tradition der 
-                                Hansestadt. Neben alten Speichern und restaurierten Schiffen gibt es hier gemütliche Cafés und 
-                                Restaurants, die frischen Fisch und regionale Spezialitäten anbieten. Beste Anlaufstelle mit einer 
-                                großen Auswahl an Frischfisch ist hier übrigens das Restaurant Seeperle.
-                                <br></br>Noch historischer wird es auf der Poeler Kogge, dem Nachbau einer mittelalterlichen Kogge, 
-                                auf der sich Mitsegeltörns buchen lassen.
-                            </p>
-                        </div>
-                        <div className="text">
                             <h2>Gewölbe</h2>
                             <p>Beim "Gewölbe" handelt es sich eigentlich um ein historisches Fachwerkhaus, das direkt über dem 
                                 Grubenflüsschen, das Wismar durchzieht, im 17. Jhd. erbaut wurde und ursprünglich Teil der 
@@ -85,24 +75,24 @@ function Sights() {
                                 oder ein Picknick. Der Park ist besonders im Frühjahr und Sommer sehenswert, wenn die Linden in 
                                 voller Blüte stehen. Auch hier schlängelt sich der Mühlenbach durch, am nordwestlichen Ende befindet 
                                 sich der Alte Wasserturm, ein alter Wehrturm der ehemaligen schwedischen Zitadelle, auf deren Gebiet 
-                                der denkmalgeschütze Park entstand.
+                                der denkmalgeschützte Park entstand.
                             </p>
                         </div>
                         <div className="text">
                             <h2>Karstadt</h2>
                             <p>1881 eröffnete Rudolph Karstadt in Wismar sein erstes Geschäft, 1907 wurde das heutige Karstadt-Gebäude 
                                 errichtet. Es ist das Stammhaus der Karstadt AG und war der Go-To-Place der Warenhäuser des 20. Jhd. 
-                                Auch in Zeiten von Amazon & Co. lassen sich hier heute noch ganz klassich wie im vorigen Jahrhundert 
+                                Auch in Zeiten von Amazon & Co. lassen sich hier heute noch ganz klassisch wie im vorigen Jahrhundert 
                                 Waren erwerben. Im Kontor, dem Rudolph-Karstadt-Museum, lässt sich die Entstehungsgeschichte und das 
                                 Wirken des einstigen Kaufmanns nachverfolgen.
                             </p>
-                            <div className="text">
+                        </div>
+                        <div className="text">
                             <h2>Ehemalige Feuerwache</h2>
                             <p>Die ehemalige Feuerwache ist eines der eindrucksvollsten Gebäude des letzten Jahrhunderts. Es wurde 
                                 in den 1920ern erbaut und gehört mit seinem expressionistischen Architekturstil eher zu den späten 
                                 Bauwerken der Hansestadt.
                             </p>
-                        </div>
                         </div>
                     </article>
                 </div>

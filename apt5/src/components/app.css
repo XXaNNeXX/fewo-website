@@ -37,11 +37,63 @@ nav {
     max-height: 80px;
 }
 
+@media (max-width: 768px) {
+    nav {
+        height: 60px;
+    }
+}
+
 .menu, .menu-items {
     display: flex;
     align-items: center;
     justify-content: space-between;
     gap: 30px;
+}
+
+.mobile-menu {
+    display: none;
+}
+
+@media (max-width: 820px) {
+    .mobile-menu {
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+        cursor: pointer;
+    }
+
+    .mobile-menu span {
+        width: 25px;
+        height: 3px;
+        background: #444;
+        margin: 0 10px 0 0;
+    }
+
+    .menu {
+        display: none;
+        flex-direction: column;
+        align-items: center;
+        position: absolute;
+        top: 60px;
+        right: 0;
+        width: 40%;
+        background-color: white;
+        padding: 20px;
+        box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+        z-index: 10;
+    }
+
+    .menu.open {
+        display: flex;
+    }
+
+    .menu-items {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        gap: 5px;
+    }
 }
 
 .menu a {
@@ -72,7 +124,7 @@ nav {
     display: none;
     position: absolute;
     background-color: #f9f9f9;
-    min-width: 160px;
+    min-width: 50%;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
     left: 50%;
@@ -94,11 +146,35 @@ nav {
     display: block;
 }
 
+@media (max-width: 820px) {
+    .dropdown-content {
+        display: none !important;
+    }
+
+    .dropdown > a {
+        display: block;
+        padding: 10px 0;
+        text-align: center;
+        color: black;
+        text-decoration: none;
+    }
+
+    .dropdown > a:hover {
+        color: darkgray;
+    }
+}
+
 .logo p {
     font-size: 8vmin;
     font-weight: 700;
     color:  rgb(100, 100, 100);
     margin: 0px 0px 0px 40px;
+}
+
+@media (max-width: 900px) {
+    .logo p {
+        margin: 0px 0px 0px 10px;
+    }
 }
 
 .logo a {
@@ -116,6 +192,19 @@ nav {
     cursor: pointer;
     padding: 5px 20px 0px 0px;
     transition: all 0.5s ease;
+}
+
+@media (max-width: 768px) {
+    .flag-toggle {
+        display: flex;
+        align-items: center;
+        padding: 0;
+    }
+
+    .flag-toggle img {
+        height: 25px;
+        width: 40px;
+    }
 }
 
 .flag-en {
@@ -171,12 +260,30 @@ nav {
 .footer-container {
     display: flex;
     justify-content:space-between;
+    align-items: center;
     column-gap: 10%;
     width: 70%;
 }
 
 .footer-link:hover {
     color: darkgray;
+}
+
+@media (max-width: 768px) {    
+    .footer-columns:nth-child(3) p {
+        visibility: hidden;
+        position: relative;
+        height: 100%;
+    }
+
+    .footer-columns:nth-child(3) p::after {
+        content: "Buchen";
+        visibility: visible;
+        position: absolute;
+        top: 50%;
+        left: 0;
+        transform: translateY(-50%); 
+    }
 }
 
 .faq-question {

@@ -6,7 +6,7 @@ function Tours() {
             <main>
                 <section>
                     <div className="banner">
-                        <img className='header-image' src="/assets/city-img/tour_banner.jpg" alt="" />
+                        <img className='header-image' src="/assets/city-img/tour_banner.jpg" alt="Stadt-Touren" />
                     </div>
                 </section>
                 <div className="content">

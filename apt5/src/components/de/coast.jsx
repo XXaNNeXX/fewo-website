@@ -23,13 +23,13 @@ function Coast() {
                         <div className="image-grid">
                             <div className="image-grid-row">
                                 <div className="image-grid-column">
-                                    <Link to={'/harbour'}>
+                                    <Link to={'/de/harbour'}>
                                         <img src="/assets/coast-img/moewe.jpg" alt=""/>
                                         <div className="image-text">Hafen</div>
                                     </Link>
                                 </div>
                                 <div className="image-grid-column">
-                                    <Link to={'/beaches'}>
+                                    <Link to={'/de/beaches'}>
                                         <img src="/assets/coast-img/beach.jpg" alt=""/>
                                         <div className="image-text">Strände</div>
                                     </Link>

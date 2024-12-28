@@ -53,7 +53,7 @@ function MovieRoom() {
                         <div className="text">
                             <h1>Entertainment pur</h1>
                             <p>Der richtige Raum für noch mehr Unterhaltung und Spielspaß. Für filmfüllende Streaming-Abende und 
-                                ergeizige Battles an der Playstation. Aber auch das zweite Schlafzimmer für deine nächtliche Ruhe. 
+                                ehrgeizige Battles an der Playstation. Aber auch das zweite Schlafzimmer für deine nächtliche Ruhe. 
                                 Mit großer Sofalandschaft zum Faulenzen, die-Beine-lang-machen, ausgiebig ausbreiten und Popcorn 
                                 verzehren. Krümeln ist übrigens erlaubt. Egal ob morgens nach dem Aufwachen, vor dem ersten Kaffee, 
                                 sich einfach die nächste Folge der Lieblingsserie gönnen oder von der nächtlichen Zockerrunde 

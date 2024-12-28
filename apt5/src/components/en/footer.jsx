@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom'
 
-function Footer() {
+function FooterEn() {
 
     return (
         <div>
@@ -8,18 +8,18 @@ function Footer() {
                 <div className="footer-box">
                     <div className="footer-container">
                         <div className="footer-columns">
-                            <Link to={'/imprint'} className='link-style'>
-                                <p>Impressum</p>
+                            <Link to={'/en/imprint'} className='link-style'>
+                                <p>Imprint</p>
                             </Link>
                         </div>
                         <div className="footer-columns">
-                            <Link to={'/faqs'} className='link-style'>
+                            <Link to={'/en/faqs'} className='link-style'>
                                 <p>FAQs</p>
                             </Link>
                         </div>
                         <div className="footer-columns">
                         <Link to="https://www.airbnb.com/h/annes-apartment5-in-wismar" className='link-style'>
-                            <p>Auf Airbnb buchen</p>
+                            <p>Book on Airbnb</p>
                         </Link>
                         </div>
                     </div>
@@ -29,4 +29,4 @@ function Footer() {
     )
 }
 
-export default Footer;
+export default FooterEn;

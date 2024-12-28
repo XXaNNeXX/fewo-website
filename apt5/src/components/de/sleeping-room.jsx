@@ -51,9 +51,9 @@ function SleepingRoom() {
                             <h1>Ein Platz zum Träumen</h1>
                             <p>Zum Einkuscheln, Ausschlafen und erholt Aufwachen. Für Langschläfer und Frühaufsteher. 
                                 Ob entspannt ins weiche Kissen gelehnt und genüsslich ins Sonntagsbrötchen gebissen, lieber 
-                                nochmal auf die andere Seite gedreht und den Morgen Morgen sein lassen oder die schon putzmunteren 
-                                Kinder ins Bett krabblend in Empfang nehmen. Dein Start in deinen ersten Aufenthaltstag beginnt 
-                                ganz individuell, es ist schließlich deine Zeit.
+                                nochmal auf die andere Seite gedreht und den Morgen Morgen sein lassen oder die ins Bett 
+                                krabbelnden und schon putzmunteren Kinder in Empfang nehmend. Dein Start in deinen ersten 
+                                Aufenthaltstag beginnt ganz individuell, es ist schließlich deine Zeit.
                             </p>
                         </div>
                         <div className='text-image-container'>

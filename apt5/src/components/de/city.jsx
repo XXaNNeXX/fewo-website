@@ -26,13 +26,13 @@ function City() {
                         <div className="image-grid">
                             <div className="image-grid-row">
                                 <div className="image-grid-column">
-                                    <Link to={'/churches'}>
+                                    <Link to={'/de/churches'}>
                                         <img src="/assets/city-img/church.jpg" alt="st georg church"/>
                                         <div className="image-text">Kirchen</div>
                                     </Link>
                                 </div>
                                 <div className="image-grid-column">
-                                    <Link to={'/sights'}>
+                                    <Link to={'/de/sights'}>
                                         <img src="/assets/city-img/wasserkunst.jpg" alt=""/>
                                         <div className="image-text">Sehenswürdigkeiten</div>
                                     </Link>
@@ -40,13 +40,13 @@ function City() {
                             </div>
                             <div className="image-grid-row">
                                 <div className="image-grid-column">
-                                    <Link to={'/tours'}>
+                                    <Link to={'/de/tours'}>
                                         <img src="/assets/city-img/oldtimer.jpg" alt=""/>
                                         <div className="image-text">Touren</div>
                                     </Link>
                                 </div>
                                 <div className="image-grid-column">
-                                    <Link to={'/kids'}>
+                                    <Link to={'/de/kids'}>
                                         <img src="/assets/city-img/wasserkunst.jpg" alt=""/>
                                         <div className="image-text">Kinder</div>
                                     </Link>
