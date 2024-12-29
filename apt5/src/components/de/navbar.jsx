@@ -66,7 +66,7 @@ function NavbarDe() {
                             </button>
                         </div>
                         <div className="flag-toggle" >
-                            <Link to={isHovered ? '/en' : '/de'}>
+                            <Link to={isHovered ? '/en' : '/'}>
                                 <img 
                                     src={isHovered ? "/assets/nav-img/en-flag.PNG" : "/assets/nav-img/de-flag.PNG"} 
                                     alt={isHovered ? "British Flag" : "German Flag"} 

@@ -6,7 +6,7 @@ function Harbour() {
             <main>
                 <section>
                     <div className="banner">
-                        <img className='header-image' src="/assets/coast-img/harbour_banner.jpg" alt="" />
+                        <img className='header-image' src="/assets/coast-img/harbour_banner.jpg" alt="Hafen" />
                     </div>
                 </section>
                 <div className="content">

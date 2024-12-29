@@ -19,7 +19,7 @@ function FooterDe() {
                         </div>
                         <div className="footer-columns">
                         <Link to="https://www.airbnb.com/h/annes-apartment5-in-wismar" className='link-style'>
-                            <p>Auf Airbnb buchen</p>
+                            <p className="p-lang-de">Auf Airbnb buchen</p>
                         </Link>
                         </div>
                     </div>

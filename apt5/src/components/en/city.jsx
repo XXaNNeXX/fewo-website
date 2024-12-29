@@ -47,7 +47,7 @@ function CityEn() {
                                 </div>
                                 <div className="image-grid-column">
                                     <Link to={'/de/kids'}>
-                                        <img src="/assets/city-img/wasserkunst.jpg" alt=""/>
+                                        <img src="/assets/city-img/playground.jpg" alt=""/>
                                         <div className="image-text">Children</div>
                                     </Link>
                                 </div>

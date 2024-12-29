@@ -6,7 +6,7 @@ function KidsEn() {
             <main>
                 <section>
                     <div className="banner">
-                        <img className='header-image' src="/assets/city-img/church.jpg" alt="playground" />
+                        <img className='header-image' src="/assets/city-img/playground_banner.jpg" alt="playground" />
                     </div>
                 </section>
                 <div className="content">

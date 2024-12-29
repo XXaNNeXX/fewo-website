@@ -22,30 +22,30 @@ function Bathroom() {
                 <section>
                     <div className="scroll-container">
                     <img className="scroll-image" 
-                            src="\assets\flat-img\bath-room-img\bathroom_1.jpg" alt="" height="350"
+                            src="\assets\flat-img\bath-room-img\bathroom_1.jpg" alt="Badezimmer" height="350"
                             onClick={handleImageClick}/>
                         <img className="scroll-image" 
-                            src="\assets\flat-img\bath-room-img\bathroom_2.jpg" alt="" height="350"
+                            src="\assets\flat-img\bath-room-img\bathroom_2.jpg" alt="Badezimmer" height="350"
                             onClick={handleImageClick}/>
                         <img className="scroll-image" 
-                            src="\assets\flat-img\bath-room-img\bathroom_3.jpg" alt="" height="350"
+                            src="\assets\flat-img\bath-room-img\bathroom_3.jpg" alt="Badezimmer" height="350"
                             onClick={handleImageClick}/>
                         <img className="scroll-image" 
-                            src="\assets\flat-img\bath-room-img\bathroom_4.jpg" alt="" height="350"
+                            src="\assets\flat-img\bath-room-img\bathroom_4.jpg" alt="Badezimmer" height="350"
                             onClick={handleImageClick}/>
                         <img className="scroll-image" 
-                            src="\assets\flat-img\bath-room-img\bathroom_5.jpg" alt="" height="350"
+                            src="\assets\flat-img\bath-room-img\bathroom_5.jpg" alt="Badezimmer" height="350"
                             onClick={handleImageClick}/>
                         <img className="scroll-image" 
-                            src="\assets\flat-img\bath-room-img\bathroom_6.jpg" alt="" height="350"
+                            src="\assets\flat-img\bath-room-img\bathroom_6.jpg" alt="Badezimmer" height="350"
                             onClick={handleImageClick}/>
                         <img className="scroll-image" 
-                            src="\assets\flat-img\bath-room-img\bathroom_7.jpg" alt="" height="350"
+                            src="\assets\flat-img\bath-room-img\bathroom_7.jpg" alt="Badezimmer" height="350"
                             onClick={handleImageClick}/>
                     </div>
                     <div ref={modalRef} id="myModal" className="modal">
                         <span className="close" onClick={handleCloseClick}>&times;</span>
-                        <img ref={modalImgRef} className="modal-content" alt="" id="img01" src={modalImageSrc} />
+                        <img ref={modalImgRef} className="modal-content" alt="Badezimmer Fotos" id="img01" src={modalImageSrc} />
                     </div>
                 </section>
                 <div className="content">
@@ -60,7 +60,7 @@ function Bathroom() {
                         </div>
                         <div className='text-image-container'>
                             <div className='image-wrapper left'>
-                                <img src="\assets\flat-img\bath-room-img\bathroom-thermo.jpg" alt=""/>
+                                <img src="\assets\flat-img\bath-room-img\bathroom-thermo.jpg" alt="Fußbodenheizung"/>
                             </div>
                             <div className="text-to-image">
                                 <p>Dank des Doppelwaschbeckens kommt man sich morgens absolut nicht in die Quere. Der breite Spiegel 
@@ -73,7 +73,7 @@ function Bathroom() {
                         </div>
                         <div className='text-image-container'>
                             <div className='image-wrapper right'>
-                                <img src="\assets\flat-img\bath-room-img\bathroom-frame.jpg" alt=""/>
+                                <img src="\assets\flat-img\bath-room-img\bathroom-frame.jpg" alt="Bilderrahmen"/>
                             </div>
                             <div className="text-to-image">
                                 <p>Das extra Gäste-WC bietet auch mehreren Personen genug Raum für die Morgentoilette. Mit den 

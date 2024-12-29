@@ -7,7 +7,7 @@ function City() {
             <main>
                 <section>
                     <div className="banner">
-                            <img className='header-image' src="/assets/city-img/city_banner.jpg" alt="" />
+                            <img className='header-image' src="/assets/city-img/city_banner.jpg" alt="Altstadt" />
                     </div>
                 </section>
                 <div className="content">
@@ -27,13 +27,13 @@ function City() {
                             <div className="image-grid-row">
                                 <div className="image-grid-column">
                                     <Link to={'/de/churches'}>
-                                        <img src="/assets/city-img/church.jpg" alt="st georg church"/>
+                                        <img src="/assets/city-img/church.jpg" alt="St. Georgen Kirche"/>
                                         <div className="image-text">Kirchen</div>
                                     </Link>
                                 </div>
                                 <div className="image-grid-column">
                                     <Link to={'/de/sights'}>
-                                        <img src="/assets/city-img/wasserkunst.jpg" alt=""/>
+                                        <img src="/assets/city-img/wasserkunst.jpg" alt="Wasserkunst"/>
                                         <div className="image-text">Sehenswürdigkeiten</div>
                                     </Link>
                                 </div>
@@ -41,13 +41,13 @@ function City() {
                             <div className="image-grid-row">
                                 <div className="image-grid-column">
                                     <Link to={'/de/tours'}>
-                                        <img src="/assets/city-img/oldtimer.jpg" alt=""/>
+                                        <img src="/assets/city-img/oldtimer.jpg" alt="Oldtimer"/>
                                         <div className="image-text">Touren</div>
                                     </Link>
                                 </div>
                                 <div className="image-grid-column">
                                     <Link to={'/de/kids'}>
-                                        <img src="/assets/city-img/wasserkunst.jpg" alt=""/>
+                                        <img src="/assets/city-img/playground.jpg" alt="Spielplatz"/>
                                         <div className="image-text">Kinder</div>
                                     </Link>
                                 </div>

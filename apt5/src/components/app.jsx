@@ -74,25 +74,25 @@ function App() {
             <ScrollToTop />
             <Navbar />
             <Routes>
-                <Route path="/de" element={<Flat/>}/>
-                <Route path="/de/sleeping-room" element={<SleepingRoom/>}/>
-                <Route path="/de/living-room" element={<LivingRoom/>}/>
-                <Route path="/de/dining-room" element={<DiningRoom/>}/>
-                <Route path="/de/movie-room" element={<MovieRoom/>}/>
-                <Route path="/de/kitchen" element={<Kitchen/>}/>
-                <Route path="/de/bathroom" element={<Bathroom/>}/>
-                <Route path="/de/housekeeping-room" element={<HousekeepingRoom/>}/>
-                <Route path="/de/roof" element={<Roof/>}/>
-                <Route path="/de/city" element={<City/>}/>
-                <Route path="/de/churches" element={<Churches/>}/>
-                <Route path="/de/sights" element={<Sights/>}/>
-                <Route path="/de/tours" element={<Tours/>}/>
-                <Route path="/de/kids" element={<Kids/>}/>
-                <Route path="/de/coast" element={<Coast/>}/>
-                <Route path="/de/harbour" element={<Harbour/>}/>
-                <Route path="/de/beaches" element={<Beaches/>}/>
-                <Route path="/de/imprint" element={<Imprint/>}/>
-                <Route path="/de/faqs" element={<FAQS/>}/>
+                <Route path="/" element={<Flat/>}/>
+                <Route path="/sleeping-room" element={<SleepingRoom/>}/>
+                <Route path="/living-room" element={<LivingRoom/>}/>
+                <Route path="/dining-room" element={<DiningRoom/>}/>
+                <Route path="/movie-room" element={<MovieRoom/>}/>
+                <Route path="/kitchen" element={<Kitchen/>}/>
+                <Route path="/bathroom" element={<Bathroom/>}/>
+                <Route path="/housekeeping-room" element={<HousekeepingRoom/>}/>
+                <Route path="/roof" element={<Roof/>}/>
+                <Route path="/city" element={<City/>}/>
+                <Route path="/churches" element={<Churches/>}/>
+                <Route path="/sights" element={<Sights/>}/>
+                <Route path="/tours" element={<Tours/>}/>
+                <Route path="/kids" element={<Kids/>}/>
+                <Route path="/coast" element={<Coast/>}/>
+                <Route path="/harbour" element={<Harbour/>}/>
+                <Route path="/beaches" element={<Beaches/>}/>
+                <Route path="/imprint" element={<Imprint/>}/>
+                <Route path="/faqs" element={<FAQS/>}/>
                 <Route path="/en" element={<FlatEn/>}/>
                 <Route path="/en/sleeping-room" element={<SleepingRoomEn/>}/>
                 <Route path="/en/living-room" element={<LivingRoomEn/>}/>

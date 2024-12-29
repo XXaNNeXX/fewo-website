@@ -22,25 +22,25 @@ function MovieRoom() {
                 <section>
                     <div className="scroll-container">
                     <img className="scroll-image" 
-                            src="\assets\flat-img\movie-room-img\movie-room_1.jpg" alt="" height="350"
+                            src="\assets\flat-img\movie-room-img\movie-room_1.jpg" alt="Kinozimmer" height="350"
                             onClick={handleImageClick}/>
                         <img className="scroll-image" 
-                            src="\assets\flat-img\movie-room-img\movie-room_2.jpg" alt="" height="350"
+                            src="\assets\flat-img\movie-room-img\movie-room_2.jpg" alt="Kinozimmer" height="350"
                             onClick={handleImageClick}/>
                         <img className="scroll-image" 
-                            src="\assets\flat-img\movie-room-img\movie-room_3.jpg" alt="" height="350"
+                            src="\assets\flat-img\movie-room-img\movie-room_3.jpg" alt="Kinozimmer" height="350"
                             onClick={handleImageClick}/>
                         <img className="scroll-image" 
-                            src="\assets\flat-img\movie-room-img\movie-room_4.jpg" alt="" height="350"
+                            src="\assets\flat-img\movie-room-img\movie-room_4.jpg" alt="Kinozimmer" height="350"
                             onClick={handleImageClick}/>
                         <img className="scroll-image" 
-                            src="\assets\flat-img\movie-room-img\movie-room_5.jpg" alt="" height="350"
+                            src="\assets\flat-img\movie-room-img\movie-room_5.jpg" alt="Kinozimmer" height="350"
                             onClick={handleImageClick}/>
                         <img className="scroll-image" 
-                            src="\assets\flat-img\movie-room-img\movie-room_6.jpg" alt="" height="350"
+                            src="\assets\flat-img\movie-room-img\movie-room_6.jpg" alt="Kinozimmer" height="350"
                             onClick={handleImageClick}/>
                         <img className="scroll-image" 
-                            src="\assets\flat-img\movie-room-img\movie-room_7.jpg" alt="" height="350"
+                            src="\assets\flat-img\movie-room-img\movie-room_7.jpg" alt="Kinozimmer" height="350"
                             onClick={handleImageClick}/>
                     </div>
                     <div ref={modalRef} id="myModal" className="modal">
@@ -62,7 +62,7 @@ function MovieRoom() {
                         </div>
                         <div className='text-image-container'>
                             <div className='image-wrapper left'>
-                                <img src="\assets\flat-img\movie-room-img\movie-room-training.jpg" alt=""/>
+                                <img src="\assets\flat-img\movie-room-img\movie-room-training.jpg" alt="Traingsequipment"/>
                             </div>
                             <div className="text-to-image">
                                 <p>Die 2,50 m breite Sofalandschaft bietet ausreichend Platz für ein großes Publikum, nebeneinander beim 
@@ -75,7 +75,7 @@ function MovieRoom() {
                         </div>
                         <div className='text-image-container'>
                             <div className='image-wrapper right'>
-                                <img src="\assets\flat-img\movie-room-img\movie-room-light.jpg" alt="" />
+                                <img src="\assets\flat-img\movie-room-img\movie-room-light.jpg" alt="LED-Wand" />
                             </div>
                             <div className="text-to-image">
                                 <p>Die Fotografien an den Wänden zeigen Wismar von ihrer schönsten Seite und lassen sich allesamt 

@@ -6,7 +6,7 @@ function Kids() {
             <main>
                 <section>
                     <div className="banner">
-                        <img className='header-image' src="/assets/city-img/church.jpg" alt="" />
+                        <img className='header-image' src="/assets/city-img/playground_banner.jpg" alt="Spielplatz" />
                     </div>
                 </section>
                 <div className="content">

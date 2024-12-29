@@ -6,11 +6,18 @@ function Beaches() {
             <main>
                 <section>
                     <div className="banner">
-                        <img className='header-image' src="/assets/coast-img/sandburg.jpg" alt="" />
+                        <img className='header-image' src="/assets/coast-img/sandburg.jpg" alt="Sandburg" />
                     </div>
                 </section>
                 <div className="content">
                     <article>
+                        <div className="text">
+                            <h1>Wismars Strände</h1>
+                            <p>Es gibt nicht nur einen? Richtig, Wismar kann gleich mit mehreren Stränden aufwarten. 
+                                Über die wichtigsten und am besten erreichbarsten kannst du dir hier einen 
+                                Überblick verschaffen.
+                            </p>
+                        </div>
                         <div className="text">
                             <h2>Poel Am Schwarzen Busch</h2>
                             <p>Nordöstlich von Wismar gelegen befindet sich die Halbinsel Poel. Diese lässt sich per 

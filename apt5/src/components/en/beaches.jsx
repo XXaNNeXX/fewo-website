@@ -12,6 +12,12 @@ function BeachesEn() {
                 <div className="content">
                     <article>
                         <div className="text">
+                            <h1>Wismar's beaches</h1>
+                            <p>There's not just one? That's right, Wismar has several beaches. You can get an overview 
+                                of the most important and most easily accessible ones here.
+                            </p>
+                        </div>
+                        <div className="text">
                             <h2>Poel Am Schwarzen Busch</h2>
                             <p>The Poel peninsula is located north-east of Wismar. It can be easily reached by 
                                 ferry, car or bicycle. The beach Am Schwarzen Busch is located north of the peninsula 

@@ -67,70 +67,70 @@ function Roof() {
                         <img 
                             className="scroll-image"
                             src="/assets/flat-img/roof-img/roof_1.jpg"
-                            alt=""
+                            alt="Dach"
                             height="350"
                             onClick={() => handleImageClick('/assets/flat-img/roof-img/roof_1.jpg')}
                         />
                         <img 
                             className="scroll-image"
                             src="/assets/flat-img/roof-img/roof_2.jpg"
-                            alt=""
+                            alt="Dach"
                             height="350"
                             onClick={() => handleImageClick('/assets/flat-img/roof-img/roof_2.jpg')}
                         />
                         <img 
                             className="scroll-image"
                             src="/assets/flat-img/roof-img/roof_3.jpg"
-                            alt=""
+                            alt="Dach"
                             height="350"
                             onClick={() => handleImageClick('/assets/flat-img/roof-img/roof_3.jpg')}
                         />
                         <img 
                             className="scroll-image"
                             src="/assets/flat-img/roof-img/roof_4.jpg"
-                            alt=""
+                            alt="Dach"
                             height="350"
                             onClick={() => handleImageClick('/assets/flat-img/roof-img/roof_4.jpg')}
                         />
                         <img 
                             className="scroll-image"
                             src="/assets/flat-img/roof-img/roof_5.jpg"
-                            alt=""
+                            alt="Dach"
                             height="350"
                             onClick={() => handleImageClick('/assets/flat-img/roof-img/roof_5.jpg')}
                         />
                         <img 
                             className="scroll-image"
                             src="/assets/flat-img/roof-img/roof_6.jpg"
-                            alt=""
+                            alt="Dach"
                             height="350"
                             onClick={() => handleImageClick('/assets/flat-img/roof-img/roof_6.jpg')}
                         />
                         <img 
                             className="scroll-image"
                             src="/assets/flat-img/roof-img/roof_7.jpg"
-                            alt=""
+                            alt="Dach"
                             height="350"
                             onClick={() => handleImageClick('/assets/flat-img/roof-img/roof_7.jpg')}
                         />
                         <img 
                             className="scroll-image"
                             src="/assets/flat-img/roof-img/roof_8.jpg"
-                            alt=""
+                            alt="Dach"
                             height="350"
                             onClick={() => handleImageClick('/assets/flat-img/roof-img/roof_8.jpg')}
                         />
                         <img 
                             className="scroll-image"
                             src="/assets/flat-img/roof-img/roof_9.jpg"
-                            alt=""
+                            alt="Dach"
                             height="350"
                             onClick={() => handleImageClick('/assets/flat-img/roof-img/roof_9.jpg')}
                         />
                         <img 
                             className="scroll-image"
                             src="/assets/flat-img/roof-img/roof_10.jpg"
-                            alt=""
+                            alt="Dach"
                             height="350"
                             onClick={() => handleImageClick('/assets/flat-img/roof-img/roof_10.jpg')}
                         />
@@ -142,7 +142,7 @@ function Roof() {
                         <img 
                             ref={modalImgRef}
                             className="modal-content"
-                            alt=""
+                            alt="Dach Fotos"
                             id="img01"
                             src={modalImageSrc}
                         />
@@ -160,7 +160,7 @@ function Roof() {
                         </div>
                         <div className='text-image-container'>
                             <div className='image-wrapper left'>
-                                <img src="/assets/flat-img/roof-img/roof-relax.jpg" alt=""/>
+                                <img src="/assets/flat-img/roof-img/roof-relax.jpg" alt="Getränke"/>
                             </div>
                             <div className="text-to-image">
                                 <p>Genieße die Abgeschiedenheit und lasse den Blick in die Ferne schweifen. Mache es dir in 
@@ -200,7 +200,7 @@ function Roof() {
                         </div>
                         <div className='text-image-container'>
                             <div className='image-wrapper right'>
-                                <img src="/assets/flat-img/roof-img/roof-movie.jpg" alt=""/>
+                                <img src="/assets/flat-img/roof-img/roof-movie.jpg" alt="Beamer"/>
                             </div>
                             <div className="text-to-image">
                                 <p>Ist dir alles zu langweilig? Dann bring das Entertainment-Erlebnis mit aufs Dach. Beamer und 

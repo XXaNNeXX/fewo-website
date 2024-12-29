@@ -6,7 +6,7 @@ function Sights() {
             <main>
                 <section>
                     <div className="banner">
-                        <img className='header-image' src="/assets/city-img/sights_banner.jpg" alt="" />
+                        <img className='header-image' src="/assets/city-img/sights_banner.jpg" alt="Schiefes Haus" />
                     </div>
                 </section>
                 <div className="content">

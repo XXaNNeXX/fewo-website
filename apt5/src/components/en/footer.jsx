@@ -19,7 +19,7 @@ function FooterEn() {
                         </div>
                         <div className="footer-columns">
                         <Link to="https://www.airbnb.com/h/annes-apartment5-in-wismar" className='link-style'>
-                            <p>Book on Airbnb</p>
+                            <p className="p-lang-en">Book on Airbnb</p>
                         </Link>
                         </div>
                     </div>

@@ -22,27 +22,27 @@ function SleepingRoom() {
                 <section>
                     <div className="scroll-container">
                     <img className="scroll-image" 
-                            src="/assets/flat-img/sleeping-room-img/sleeping-room_1.jpg" alt="" height="350"
+                            src="/assets/flat-img/sleeping-room-img/sleeping-room_1.jpg" alt="Schlafzimmer" height="350"
                             onClick={handleImageClick}/>
                         <img className="scroll-image" 
-                            src="/assets/flat-img/sleeping-room-img/sleeping-room_2.jpg" alt="" height="350"
+                            src="/assets/flat-img/sleeping-room-img/sleeping-room_2.jpg" alt="Schlafzimmer" height="350"
                             onClick={handleImageClick}/>
                         <img className="scroll-image" 
-                            src="/assets/flat-img/sleeping-room-img/sleeping-room_3.jpg" alt="" height="350"
+                            src="/assets/flat-img/sleeping-room-img/sleeping-room_3.jpg" alt="Schlafzimmer" height="350"
                             onClick={handleImageClick}/>
                         <img className="scroll-image" 
-                            src="/assets/flat-img/sleeping-room-img/sleeping-room_4.jpg" alt="" height="350"
+                            src="/assets/flat-img/sleeping-room-img/sleeping-room_4.jpg" alt="Schlafzimmer" height="350"
                             onClick={handleImageClick}/>
                         <img className="scroll-image" 
-                            src="/assets/flat-img/sleeping-room-img/sleeping-room_5.jpg" alt="" height="350"
+                            src="/assets/flat-img/sleeping-room-img/sleeping-room_5.jpg" alt="Schlafzimmer" height="350"
                             onClick={handleImageClick}/>
                         <img className="scroll-image" 
-                            src="/assets/flat-img/sleeping-room-img/sleeping-room_6.jpg" alt="" height="350"
+                            src="/assets/flat-img/sleeping-room-img/sleeping-room_6.jpg" alt="Schlafzimmer" height="350"
                             onClick={handleImageClick}/>
                     </div>
                     <div ref={modalRef} id="myModal" className="modal">
                         <span className="close" onClick={handleCloseClick}>&times;</span>
-                        <img ref={modalImgRef} className="modal-content" alt="" id="img01" src={modalImageSrc} />
+                        <img ref={modalImgRef} className="modal-content" alt="Schlafzimmer Fotos" id="img01" src={modalImageSrc} />
                     </div>
                 </section>
                 <div className="content">
@@ -58,7 +58,7 @@ function SleepingRoom() {
                         </div>
                         <div className='text-image-container'>
                             <div className='image-wrapper left'>
-                                <img src="/assets/flat-img/sleeping-room-img/sleeping-room-cushion.jpg" alt=""/>
+                                <img src="/assets/flat-img/sleeping-room-img/sleeping-room-cushion.jpg" alt="Kopfkissen"/>
                             </div>
                             <div className="text-to-image">
                                 <p>Das Kingsize Bett macht's möglich. Angenehme Komfortbreite und eine Kissenwahl, wie du sie 
@@ -72,7 +72,7 @@ function SleepingRoom() {
                         </div>
                         <div className='text-image-container'>
                             <div className='image-wrapper right'>
-                                <img src="/assets/flat-img/sleeping-room-img/sleeping-room-armchair.jpg" alt="" />
+                                <img src="/assets/flat-img/sleeping-room-img/sleeping-room-armchair.jpg" alt="Sessel" />
                             </div>
                             <div className="text-to-image">
                                 <p>Im gemütlichen Sessel gleich gegenüber kannst du noch ein bisschen deinen Träumen nachhängen, in den 

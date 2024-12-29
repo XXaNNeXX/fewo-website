@@ -191,7 +191,7 @@ nav {
     display: inline-block;
     cursor: pointer;
     padding: 5px 20px 0px 0px;
-    transition: all 0.5s ease;
+    transition: all 0.3s ease;
 }
 
 @media (max-width: 768px) {
@@ -270,14 +270,24 @@ nav {
 }
 
 @media (max-width: 768px) {    
-    .footer-columns:nth-child(3) p {
+    .footer-columns:nth-child(3) .p-lang-de, 
+    .footer-columns:nth-child(3) .p-lang-en {
         visibility: hidden;
         position: relative;
         height: 100%;
     }
 
-    .footer-columns:nth-child(3) p::after {
+    .footer-columns:nth-child(3) .p-lang-de::after {
         content: "Buchen";
+        visibility: visible;
+        position: absolute;
+        top: 50%;
+        left: 0;
+        transform: translateY(-50%); 
+    }
+
+    .footer-columns:nth-child(3) .p-lang-en::after {
+        content: "Book";
         visibility: visible;
         position: absolute;
         top: 50%;

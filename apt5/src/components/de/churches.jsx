@@ -6,7 +6,7 @@ function Churches() {
             <main>
                 <section>
                     <div className="banner">
-                        <img className='header-image' src="/assets/city-img/church_banner.jpg" alt="" />
+                        <img className='header-image' src="/assets/city-img/church_banner.jpg" alt="Kirche" />
                     </div>
                 </section>
                 <div className="content">

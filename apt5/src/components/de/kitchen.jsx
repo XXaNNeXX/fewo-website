@@ -22,33 +22,33 @@ function Kitchen() {
                 <section>
                     <div className="scroll-container">
                     <img className="scroll-image" 
-                            src="\assets\flat-img\kitchen-img\kitchen_1.jpg" alt="" height="350"
+                            src="\assets\flat-img\kitchen-img\kitchen_1.jpg" alt="Küche" height="350"
                             onClick={handleImageClick}/>
                         <img className="scroll-image" 
-                            src="\assets\flat-img\kitchen-img\kitchen_2.jpg" alt="" height="350"
+                            src="\assets\flat-img\kitchen-img\kitchen_2.jpg" alt="Küche" height="350"
                             onClick={handleImageClick}/>
                         <img className="scroll-image" 
-                            src="\assets\flat-img\kitchen-img\kitchen_3.jpg" alt="" height="350"
+                            src="\assets\flat-img\kitchen-img\kitchen_3.jpg" alt="Küche" height="350"
                             onClick={handleImageClick}/>
                         <img className="scroll-image" 
-                            src="\assets\flat-img\kitchen-img\kitchen_4.jpg" alt="" height="350"
+                            src="\assets\flat-img\kitchen-img\kitchen_4.jpg" alt="Küche" height="350"
                             onClick={handleImageClick}/>
                         <img className="scroll-image" 
-                            src="\assets\flat-img\kitchen-img\kitchen_5.jpg" alt="" height="350"
+                            src="\assets\flat-img\kitchen-img\kitchen_5.jpg" alt="Küche" height="350"
                             onClick={handleImageClick}/>
                         <img className="scroll-image" 
-                            src="\assets\flat-img\kitchen-img\kitchen_6.jpg" alt="" height="350"
+                            src="\assets\flat-img\kitchen-img\kitchen_6.jpg" alt="Küche" height="350"
                             onClick={handleImageClick}/>
                         <img className="scroll-image" 
-                            src="\assets\flat-img\kitchen-img\kitchen_7.jpg" alt="" height="350"
+                            src="\assets\flat-img\kitchen-img\kitchen_7.jpg" alt="Küche" height="350"
                             onClick={handleImageClick}/>
                         <img className="scroll-image" 
-                            src="\assets\flat-img\kitchen-img\kitchen_8.jpg" alt="" height="350"
+                            src="\assets\flat-img\kitchen-img\kitchen_8.jpg" alt="Küche" height="350"
                             onClick={handleImageClick}/>
                     </div>
                     <div ref={modalRef} id="myModal" className="modal">
                         <span className="close" onClick={handleCloseClick}>&times;</span>
-                        <img ref={modalImgRef} className="modal-content" alt="" id="img01" src={modalImageSrc} />
+                        <img ref={modalImgRef} className="modal-content" alt="Küchenfotos" id="img01" src={modalImageSrc} />
                     </div>
                 </section>
                 <div className="content">
@@ -64,7 +64,7 @@ function Kitchen() {
                         </div>
                         <div className='text-image-container'>
                             <div className='image-wrapper left'>
-                                <img src="\assets\flat-img\kitchen-img\kitchen-winecooler.jpg" alt=""/>
+                                <img src="\assets\flat-img\kitchen-img\kitchen-winecooler.jpg" alt="Weinkühler"/>
                             </div>
                             <div className="text-to-image">
                                 <p>Angefangen bei French Press und Milchaufschäumer für den Kaffeegenuss, über handliche Tools wie
@@ -79,7 +79,7 @@ function Kitchen() {
                         </div>
                         <div className='text-image-container'>
                             <div className='image-wrapper right'>
-                                <img src="\assets\flat-img\kitchen-img\kitchen-coffee.jpg" alt="" />
+                                <img src="\assets\flat-img\kitchen-img\kitchen-coffee.jpg" alt="Kaffeezubereiter" />
                             </div>
                             <div className="text-to-image">
                                 <p>Damit du für deine Koch- und Backabenteuer bestens gewappnet bist, stehen dir nicht nur Salz und 

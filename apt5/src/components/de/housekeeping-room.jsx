@@ -22,21 +22,21 @@ function HousekeepingRoom() {
                 <section>
                     <div className="scroll-container">
                     <img className="scroll-image" 
-                            src="/assets/flat-img/housekeeping-room-img/housekeeping_1.jpg" alt="" height="350"
+                            src="/assets/flat-img/housekeeping-room-img/housekeeping_1.jpg" alt="Hauswirtschaftsraum" height="350"
                             onClick={handleImageClick}/>
                         <img className="scroll-image" 
-                            src="/assets/flat-img/housekeeping-room-img/housekeeping_2.jpg" alt="" height="350"
+                            src="/assets/flat-img/housekeeping-room-img/housekeeping_2.jpg" alt="Hauswirtschaftsraum" height="350"
                             onClick={handleImageClick}/>
                         <img className="scroll-image" 
-                            src="/assets/flat-img/housekeeping-room-img/housekeeping_3.jpg" alt="" height="350"
+                            src="/assets/flat-img/housekeeping-room-img/housekeeping_3.jpg" alt="Hauswirtschaftsraum" height="350"
                             onClick={handleImageClick}/>
                         <img className="scroll-image" 
-                            src="/assets/flat-img/housekeeping-room-img/housekeeping_4.jpg" alt="" height="350"
+                            src="/assets/flat-img/housekeeping-room-img/housekeeping_4.jpg" alt="Hauswirtschaftsraum" height="350"
                             onClick={handleImageClick}/>
                     </div>
                     <div ref={modalRef} id="myModal" className="modal">
                         <span className="close" onClick={handleCloseClick}>&times;</span>
-                        <img ref={modalImgRef} className="modal-content" alt="" id="img01" src={modalImageSrc} />
+                        <img ref={modalImgRef} className="modal-content" alt="Hauswirtschaftsraum Fotos" id="img01" src={modalImageSrc} />
                     </div>
                 </section>
                 <div className="content">
@@ -51,7 +51,7 @@ function HousekeepingRoom() {
                         </div>
                         <div className='text-image-container'>
                             <div className='image-wrapper left'>
-                                <img src="/assets/flat-img/housekeeping-room-img/housekeeping-equipment.jpg" alt=""/>
+                                <img src="/assets/flat-img/housekeeping-room-img/housekeeping-equipment.jpg" alt="Urlaubsequipment"/>
                             </div>
                             <div className="text-to-image">
                                 <p>Neben den Klassikern Bügeleisen, Bügelbrett und Staubsauger wirst du hier noch einige 

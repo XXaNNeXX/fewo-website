@@ -7,7 +7,7 @@ function Coast() {
             <main>
                 <section>
                     <div className="banner">
-                        <img className='header-image' src="/assets/coast-img/coast_banner.jpg" alt="" />
+                        <img className='header-image' src="/assets/coast-img/coast_banner.jpg" alt="Küste" />
                     </div>
                 </section>
                 <div className="content">
@@ -24,13 +24,13 @@ function Coast() {
                             <div className="image-grid-row">
                                 <div className="image-grid-column">
                                     <Link to={'/de/harbour'}>
-                                        <img src="/assets/coast-img/moewe.jpg" alt=""/>
+                                        <img src="/assets/coast-img/moewe.jpg" alt="Möwe"/>
                                         <div className="image-text">Hafen</div>
                                     </Link>
                                 </div>
                                 <div className="image-grid-column">
                                     <Link to={'/de/beaches'}>
-                                        <img src="/assets/coast-img/beach.jpg" alt=""/>
+                                        <img src="/assets/coast-img/beach.jpg" alt="Strand"/>
                                         <div className="image-text">Strände</div>
                                     </Link>
                                 </div>

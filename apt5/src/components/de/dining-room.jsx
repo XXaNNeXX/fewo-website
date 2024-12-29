@@ -22,30 +22,30 @@ function DiningRoom() {
                 <section>
                     <div className="scroll-container">
                     <img className="scroll-image" 
-                            src="\assets\flat-img\dining-room-img\dining-room_1.jpg" alt="" height="350"
+                            src="\assets\flat-img\dining-room-img\dining-room_1.jpg" alt="Esszimmer" height="350"
                             onClick={handleImageClick}/>
                         <img className="scroll-image" 
-                            src="\assets\flat-img\dining-room-img\dining-room_2.jpg" alt="" height="350"
+                            src="\assets\flat-img\dining-room-img\dining-room_2.jpg" alt="Esszimmer" height="350"
                             onClick={handleImageClick}/>
                         <img className="scroll-image" 
-                            src="\assets\flat-img\dining-room-img\dining-room_3.jpg" alt="" height="350"
+                            src="\assets\flat-img\dining-room-img\dining-room_3.jpg" alt="Esszimmer" height="350"
                             onClick={handleImageClick}/>
                         <img className="scroll-image" 
-                            src="\assets\flat-img\dining-room-img\dining-room_4.jpg" alt="" height="350"
+                            src="\assets\flat-img\dining-room-img\dining-room_4.jpg" alt="Esszimmer" height="350"
                             onClick={handleImageClick}/>
                         <img className="scroll-image" 
-                            src="\assets\flat-img\dining-room-img\dining-room_5.jpg" alt="" height="350"
+                            src="\assets\flat-img\dining-room-img\dining-room_5.jpg" alt="Esszimmer" height="350"
                             onClick={handleImageClick}/>
                         <img className="scroll-image" 
-                            src="\assets\flat-img\dining-room-img\dining-room_6.jpg" alt="" height="350"
+                            src="\assets\flat-img\dining-room-img\dining-room_6.jpg" alt="Esszimmer" height="350"
                             onClick={handleImageClick}/>
                         <img className="scroll-image" 
-                            src="\assets\flat-img\dining-room-img\dining-room_7.jpg" alt="" height="350"
+                            src="\assets\flat-img\dining-room-img\dining-room_7.jpg" alt="Esszimmer" height="350"
                             onClick={handleImageClick}/>
                     </div>
                     <div ref={modalRef} id="myModal" className="modal">
                         <span className="close" onClick={handleCloseClick}>&times;</span>
-                        <img ref={modalImgRef} className="modal-content" alt="" id="img01" src={modalImageSrc} />
+                        <img ref={modalImgRef} className="modal-content" alt="Esszimmer Fotos" id="img01" src={modalImageSrc} />
                     </div>
                 </section>
                 <div className="content">
@@ -60,7 +60,7 @@ function DiningRoom() {
                         </div>
                         <div className='text-image-container'>
                             <div className='image-wrapper left'>
-                                <img src="\assets\flat-img\dining-room-img\dining-room-desk.jpg" alt=""/>
+                                <img src="\assets\flat-img\dining-room-img\dining-room-desk.jpg" alt="Schreibtisch"/>
                             </div>
                             <div className="text-to-image">
                                 <p>Am höhenverstellbaren Schreibtisch lassen sich rückenfreundlich deine (digitalen) Ideen verwirklichen. 
@@ -73,7 +73,7 @@ function DiningRoom() {
                         </div>
                         <div className='text-image-container'>
                             <div className='image-wrapper right'>
-                                <img src="\assets\flat-img\dining-room-img\dining-room-paint.jpg" alt="" />
+                                <img src="\assets\flat-img\dining-room-img\dining-room-paint.jpg" alt="Malsachen" />
                             </div>
                             <div className="text-to-image">
                                 <p>Für kleine Künstlerinnen und Künstler beherbergen die Kommodenschubladen passende Malutensilien. Hilft 
