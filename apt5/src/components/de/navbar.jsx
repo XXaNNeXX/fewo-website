@@ -17,7 +17,7 @@ function NavbarDe() {
             <header>
                 <nav>
                     <div className='logo'>
-                        <p><Link to={'/de'}>Apt 5</Link></p>
+                        <p><Link to={'/'}>Apt 5</Link></p>
                     </div>
                     <div className="mobile-menu" onClick={toggleMenu}>
                         <span></span>
@@ -27,32 +27,32 @@ function NavbarDe() {
                     <div className={`menu ${isMenuOpen ? 'open' : ''}`}>
                         <div className='menu-items'>
                             <div className="dropdown">
-                                <Link to={'/de'} onClick={closeMenu}>Die Wohnung</Link>
+                                <Link to={'/'} onClick={closeMenu}>Die Wohnung</Link>
                                     <div className="dropdown-content">
-                                        <Link to='/de/sleeping-room'>Schlafzimmer</Link>
-                                        <Link to='/de/living-room'>Wohnzimmer</Link>
-                                        <Link to='/de/dining-room'>Esszimmer</Link>
-                                        <Link to='/de/movie-room'>Kinozimmer</Link>
-                                        <Link to='/de/kitchen'>Küche</Link>
-                                        <Link to='/de/bathroom'>Badezimmer</Link>
-                                        <Link to='/de/housekeeping-room'>Hauswirtschaftsraum</Link>
-                                        <Link to='/de/roof'>Dach</Link>
+                                        <Link to='/sleeping-room'>Schlafzimmer</Link>
+                                        <Link to='/living-room'>Wohnzimmer</Link>
+                                        <Link to='/dining-room'>Esszimmer</Link>
+                                        <Link to='/movie-room'>Kinozimmer</Link>
+                                        <Link to='/kitchen'>Küche</Link>
+                                        <Link to='/bathroom'>Badezimmer</Link>
+                                        <Link to='/housekeeping-room'>Hauswirtschaftsraum</Link>
+                                        <Link to='/roof'>Dach</Link>
                                     </div>
                             </div>
                             <div className="dropdown">
-                                <Link to={'/de/city'} onClick={closeMenu}>Die Stadt</Link>
+                                <Link to={'/city'} onClick={closeMenu}>Die Stadt</Link>
                                     <div className="dropdown-content">
-                                        <Link to='/de/churches'>Kirchen</Link>
-                                        <Link to='/de/sights'>Sehenswürdigkeiten</Link>
-                                        <Link to='/de/tours'>Touren</Link>
-                                        <Link to='/de/kids'>Kinder</Link>
+                                        <Link to='/churches'>Kirchen</Link>
+                                        <Link to='/sights'>Sehenswürdigkeiten</Link>
+                                        <Link to='/tours'>Touren</Link>
+                                        <Link to='/kids'>Kinder</Link>
                                     </div>
                             </div>
                             <div className="dropdown">
-                                <Link to={'/de/coast'} onClick={closeMenu}>Die Küste</Link>
+                                <Link to={'/coast'} onClick={closeMenu}>Die Küste</Link>
                                 <div className="dropdown-content">
-                                    <Link to='/de/harbour'>Hafen</Link>
-                                    <Link to='/de/beaches'>Strände</Link>
+                                    <Link to='/harbour'>Hafen</Link>
+                                    <Link to='/beaches'>Strände</Link>
                                 </div>
                             </div>
                         </div>

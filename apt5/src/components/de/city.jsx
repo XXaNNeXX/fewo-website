@@ -26,13 +26,13 @@ function City() {
                         <div className="image-grid">
                             <div className="image-grid-row">
                                 <div className="image-grid-column">
-                                    <Link to={'/de/churches'}>
+                                    <Link to={'/churches'}>
                                         <img src="/assets/city-img/church.jpg" alt="St. Georgen Kirche"/>
                                         <div className="image-text">Kirchen</div>
                                     </Link>
                                 </div>
                                 <div className="image-grid-column">
-                                    <Link to={'/de/sights'}>
+                                    <Link to={'/sights'}>
                                         <img src="/assets/city-img/wasserkunst.jpg" alt="Wasserkunst"/>
                                         <div className="image-text">Sehenswürdigkeiten</div>
                                     </Link>
@@ -40,13 +40,13 @@ function City() {
                             </div>
                             <div className="image-grid-row">
                                 <div className="image-grid-column">
-                                    <Link to={'/de/tours'}>
+                                    <Link to={'/tours'}>
                                         <img src="/assets/city-img/oldtimer.jpg" alt="Oldtimer"/>
                                         <div className="image-text">Touren</div>
                                     </Link>
                                 </div>
                                 <div className="image-grid-column">
-                                    <Link to={'/de/kids'}>
+                                    <Link to={'/kids'}>
                                         <img src="/assets/city-img/playground.jpg" alt="Spielplatz"/>
                                         <div className="image-text">Kinder</div>
                                     </Link>

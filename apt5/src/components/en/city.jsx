@@ -26,13 +26,13 @@ function CityEn() {
                         <div className="image-grid">
                             <div className="image-grid-row">
                                 <div className="image-grid-column">
-                                    <Link to={'/de/churches'}>
+                                    <Link to={'/en/churches'}>
                                         <img src="/assets/city-img/church.jpg" alt="st georg church"/>
                                         <div className="image-text">Churches</div>
                                     </Link>
                                 </div>
                                 <div className="image-grid-column">
-                                    <Link to={'/de/sights'}>
+                                    <Link to={'/en/sights'}>
                                         <img src="/assets/city-img/wasserkunst.jpg" alt="Wasserkunst"/>
                                         <div className="image-text">Sights</div>
                                     </Link>
@@ -40,13 +40,13 @@ function CityEn() {
                             </div>
                             <div className="image-grid-row">
                                 <div className="image-grid-column">
-                                    <Link to={'/de/tours'}>
+                                    <Link to={'/en/tours'}>
                                         <img src="/assets/city-img/oldtimer.jpg" alt="classic car"/>
                                         <div className="image-text">Tours</div>
                                     </Link>
                                 </div>
                                 <div className="image-grid-column">
-                                    <Link to={'/de/kids'}>
+                                    <Link to={'/en/kids'}>
                                         <img src="/assets/city-img/playground.jpg" alt=""/>
                                         <div className="image-text">Children</div>
                                     </Link>

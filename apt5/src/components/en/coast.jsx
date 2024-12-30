@@ -24,13 +24,13 @@ function CoastEn() {
                         <div className="image-grid">
                             <div className="image-grid-row">
                                 <div className="image-grid-column">
-                                    <Link to={'/de/harbour'}>
+                                    <Link to={'/en/harbour'}>
                                         <img src="/assets/coast-img/moewe.jpg" alt="seagull"/>
                                         <div className="image-text">Harbour</div>
                                     </Link>
                                 </div>
                                 <div className="image-grid-column">
-                                    <Link to={'/de/beaches'}>
+                                    <Link to={'/en/beaches'}>
                                         <img src="/assets/coast-img/beach.jpg" alt="beach"/>
                                         <div className="image-text">Beaches</div>
                                     </Link>

@@ -8,12 +8,12 @@ function FooterDe() {
                 <div className="footer-box">
                     <div className="footer-container">
                         <div className="footer-columns">
-                            <Link to={'/de/imprint'} className='link-style'>
+                            <Link to={'/imprint'} className='link-style'>
                                 <p>Impressum</p>
                             </Link>
                         </div>
                         <div className="footer-columns">
-                            <Link to={'/de/faqs'} className='link-style'>
+                            <Link to={'/faqs'} className='link-style'>
                                 <p>FAQs</p>
                             </Link>
                         </div>
